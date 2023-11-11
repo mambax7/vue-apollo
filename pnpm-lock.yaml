@@ -5,6 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
+  js-yaml: ^3.13.1
   eslint-scope: ^5
   serialize-javascript: ^6.0.0
   subscriptions-transport-ws: ^0.9
@@ -209,8 +210,8 @@ importers:
         specifier: ^10.4.14
         version: 10.4.14(postcss@8.4.25)
       axios:
-        specifier: ^1.4.0
-        version: 1.4.0
+        specifier: ^1.6.0
+        version: 1.6.0
       cypress:
         specifier: ^12.17.0
         version: 12.17.0
@@ -282,8 +283,8 @@ importers:
         specifier: ^10.4.14
         version: 10.4.14(postcss@8.4.25)
       axios:
-        specifier: ^1.4.0
-        version: 1.4.0
+        specifier: ^1.6.0
+        version: 1.6.0
       cypress:
         specifier: ^12.17.0
         version: 12.17.0
@@ -6391,8 +6392,8 @@ packages:
       - debug
     dev: true
 
-  /axios@1.4.0:
-    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
+  /axios@1.6.0:
+    resolution: {integrity: sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==}
     dependencies:
       follow-redirects: 1.15.2(debug@4.3.4)
       form-data: 4.0.0
